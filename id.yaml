@@ -1,0 +1,28 @@
+---
+juniper_junos:
+  vid: 874
+  pid: 3989
+vmware_esxi:
+  vid: 252
+  pid: 22134
+fortinet_fortios:
+  vid: 3080
+  pid: 6632
+mikrotik_routeros:
+  vid: 12508
+  pid: 23641
+cisco_ios:
+  vid: 16
+  pid: 19
+linux_kernel:
+  vid: 33
+  pid: 47
+debian_linux:
+  vid: 23
+  pid: 36
+ubuntu_linux:
+  vid: 4781
+  pid: 9871
+centos_centos:
+  vid: 10167
+  pid: 18131

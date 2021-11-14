@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CybeReport</title>
+</head>
+<body>
+
+        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                table-layout: fixed; 
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="927aa56f7d1d4d63ad855cf21ea3af65" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > vmware_esxi</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>CVE ID</th>
+            <th>Publish</th>
+            <th>CVSS Score</th>
+            <th>Summary</th>
+            <th>details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>CVE-2021-21995</td>
+            <td>2021-07-13</td>
+            <td>5.0</td>
+            <td>OpenSLP as used in ESXi has a denial-of-service vulnerability due a heap out-of-bounds read issue. A malicious actor with network access to port 427 on ESXi may be able to trigger a heap out-of-bounds read in OpenSLP service resulting in a denial-of-service condition.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2021-21995/</td>
+        </tr>
+        <tr>
+            <td>CVE-2021-21994</td>
+            <td>2021-07-13</td>
+            <td>6.8</td>
+            <td>SFCB (Small Footprint CIM Broker) as used in ESXi has an authentication bypass vulnerability. A malicious actor with network access to port 5989 on ESXi may exploit this issue to bypass SFCB authentication by sending a specially crafted request.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2021-21994/</td>
+        </tr>
+        <tr>
+            <td>CVE-2021-21974</td>
+            <td>2021-02-24</td>
+            <td>5.8</td>
+            <td>OpenSLP as used in ESXi (7.0 before ESXi70U1c-17325551, 6.7 before ESXi670-202102401-SG, 6.5 before ESXi650-202102101-SG) has a heap-overflow vulnerability. A malicious actor residing within the same network segment as ESXi who has access to port 427 may be able to trigger the heap-overflow issue in OpenSLP service resulting in remote code execution.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2021-21974/</td>
+        </tr>
+        <tr>
+            <td>CVE-2020-4005</td>
+            <td>2020-11-20</td>
+            <td>7.2</td>
+            <td>VMware ESXi (7.0 before ESXi70U1b-17168206, 6.7 before ESXi670-202011101-SG, 6.5 before ESXi650-202011301-SG) contains a privilege-escalation vulnerability that exists in the way certain system calls are being managed. A malicious actor with privileges within the VMX process only, may escalate their privileges on the affected system. Successful exploitation of this issue is only possible when chained with another vulnerability (e.g. CVE-2020-4004)</td>
+            <td>http://www.cvedetails.com/cve/CVE-2020-4005/</td>
+        </tr>
+        <tr>
+            <td>CVE-2020-4004</td>
+            <td>2020-11-20</td>
+            <td>4.6</td>
+            <td>VMware ESXi (7.0 before ESXi70U1b-17168206, 6.7 before ESXi670-202011101-SG, 6.5 before ESXi650-202011301-SG), Workstation (15.x before 15.5.7), Fusion (11.x before 11.5.7) contain a use-after-free vulnerability in the XHCI USB controller. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine&amp;#039;s VMX process running on the host.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2020-4004/</td>
+        </tr>
+        <tr>
+            <td>CVE-2020-3992</td>
+            <td>2020-10-20</td>
+            <td>10.0</td>
+            <td>OpenSLP as used in VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before ESXi670-202010401-SG, 6.5 before ESXi650-202010401-SG) has a use-after-free issue. A malicious actor residing in the management network who has access to port 427 on an ESXi machine may be able to trigger a use-after-free in the OpenSLP service resulting in remote code execution.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2020-3992/</td>
+        </tr>
+        <tr>
+            <td>CVE-2020-3982</td>
+            <td>2020-10-20</td>
+            <td>4.9</td>
+            <td>VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before ESXi670-202008101-SG, 6.5 before ESXi650-202007101-SG), Workstation (15.x), Fusion (11.x before 11.5.6) contain an out-of-bounds write vulnerability due to a time-of-check time-of-use issue in ACPI device. A malicious actor with administrative access to a virtual machine may be able to exploit this vulnerability to crash the virtual machine&amp;#039;s vmx process or corrupt hypervisor&amp;#039;s memory heap.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2020-3982/</td>
+        </tr>
+        <tr>
+            <td>CVE-2020-3976</td>
+            <td>2020-08-21</td>
+            <td>5.0</td>
+            <td>VMware ESXi and vCenter Server contain a partial denial of service vulnerability in their respective authentication services. VMware has evaluated the severity of this issue to be in the Moderate severity range with a maximum CVSSv3 base score of 5.3.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2020-3976/</td>
+        </tr>
+        <tr>
+            <td>CVE-2020-3969</td>
+            <td>2020-06-24</td>
+            <td>4.4</td>
+            <td>VMware ESXi (7.0 before ESXi_7.0.0-1.20.16321839, 6.7 before ESXi670-202004101-SG and 6.5 before ESXi650-202005401-SG), Workstation (15.x before 15.5.5), and Fusion (11.x before 11.5.5) contain an off-by-one heap-overflow vulnerability in the SVGA device. A malicious actor with local access to a virtual machine with 3D graphics enabled may be able to exploit this vulnerability to execute code on the hypervisor from a virtual machine. Additional conditions beyond the attacker&amp;#039;s control must be present for exploitation to be possible.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2020-3969/</td>
+        </tr>
+        <tr>
+            <td>CVE-2020-3968</td>
+            <td>2020-06-25</td>
+            <td>4.6</td>
+            <td>VMware ESXi (7.0 before ESXi_7.0.0-1.20.16321839, 6.7 before ESXi670-202004101-SG and 6.5 before ESXi650-202005401-SG), Workstation (15.x before 15.5.5), and Fusion (11.x before 11.5.5) contain an out-of-bounds write vulnerability in the USB 3.0 controller (xHCI). A malicious actor with local administrative privileges on a virtual machine may be able to exploit this issue to crash the virtual machine&amp;#039;s vmx process leading to a denial of service condition or execute code on the hypervisor from a virtual machine. Additional conditions beyond the attacker&amp;#039;s control must be present for exploitation to be possible.</td>
+            <td>http://www.cvedetails.com/cve/CVE-2020-3968/</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+
+</body>
+</html>
